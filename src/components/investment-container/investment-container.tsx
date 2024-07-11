@@ -25,16 +25,20 @@ export const InvestmentContainer = ({ investmentId }: Props) => {
         <div className={"flex w-full flex-col gap-4"}>
           <div
             className={
-              "flex w-full flex-col justify-between gap-4 md:flex-row md:items-center"
+              "flex w-full flex-row items-end justify-between gap-4 md:items-center"
             }
           >
             <InvestmentsBreadcrumb investment={investment} />
-            <div className={"flex flex-row items-center gap-4"}>
+            <div
+              className={
+                "flex flex-col items-start gap-4 lg:flex-row lg:items-center"
+              }
+            >
               <CreateWithdrawalModal investment={investment} />
               <DeleteInvestmentModal investmentId={investment.id} />
             </div>
           </div>
-          <div className="flex w-full flex-col gap-8 md:flex-row">
+          <div className="flex w-full flex-col gap-8 lg:flex-row">
             <div className={"flex w-full flex-col gap-8"}>
               <InvestmentDetails investment={investment} />
               <IncomeTable income={investment.income} />

@@ -5,55 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0981441-cb6c-4bc1-bf50-ede62fc6a22a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/investments/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/investments/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/investments/template.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/delete-all-investments-modal/delete-all-investments-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/delete-investment-modal/delete-investment-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/income-table/columns.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/income-table/income-table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/investment-details/investment-details.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/withdrawals-table/columns.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/withdrawals-table/withdrawals-table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investments-breadcrumb/investments-breadcrumb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investments-table/columns.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/investments-table/investments-table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/providers/providers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/add-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/breadcrumb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/calendar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/data-table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/delete-modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/money-input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/money-text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/popover.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/use-investments.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/store/actions/create-investment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/store/actions/create-withdrawal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/store/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/store/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/investments.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/investments/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/investments/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +117,7 @@
       <workItem from="1720577942905" duration="4316000" />
       <workItem from="1720629062505" duration="20000" />
       <workItem from="1720645498394" duration="12003000" />
-      <workItem from="1720710516315" duration="8472000" />
+      <workItem from="1720710516315" duration="9433000" />
     </task>
     <servers />
   </component>
