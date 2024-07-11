@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0981441-cb6c-4bc1-bf50-ede62fc6a22a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/investments-page.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/investments/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/investments/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +142,7 @@
       <workItem from="1720629062505" duration="20000" />
       <workItem from="1720645498394" duration="12003000" />
       <workItem from="1720710516315" duration="10020000" />
-      <workItem from="1720724742795" duration="2482000" />
+      <workItem from="1720724742795" duration="2915000" />
     </task>
     <servers />
   </component>
