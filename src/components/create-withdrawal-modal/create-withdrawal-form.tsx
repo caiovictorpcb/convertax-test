@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { Form } from "../ui/form";
 import { useInvestments } from "@/hooks/use-investments";
-import MoneyInput from "@/components/ui/money-input";
+import { MoneyInput } from "@/components/ui/money-input";
 import { DialogFooter } from "@/components/ui/dialog";
 import dayjs from "dayjs";
 import { Investment } from "@/types";
@@ -41,7 +41,6 @@ export const CreateWithdrawalForm = ({ onClose, investment }: Props) => {
   const currentValue = form.watch("value");
   const tax = useMemo(() => {
     const investmentAge = dayjs().diff(dayjs(investment.createdAt), "years");
-    console.log({ investmentAge });
     if (investmentAge < 1) {
       return 0.225;
     } else if (investmentAge >= 1 && investmentAge < 2) {

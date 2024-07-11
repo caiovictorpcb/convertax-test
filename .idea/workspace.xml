@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0981441-cb6c-4bc1-bf50-ede62fc6a22a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/investments-page.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/investments/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/investments/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,30 +58,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/caiov/Trabalho/bobbi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\caiov\\P\\convertax-test\\node_modules\\eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\caiov\\P\\convertax-test\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\caiov\\P\\convertax-test\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "C:/Users/caiov/Trabalho/bobbi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "C:\\Users\\caiov\\P\\convertax-test\\node_modules\\eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/caiov/P/convertax-test/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\caiov\\P\\convertax-test\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "ts.external.directory.path": "C:\\Users\\caiov\\P\\convertax-test\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\caiov\P\convertax-test\src\app\investments" />
@@ -84,7 +92,19 @@
       <recent name="C:\Users\caiov\P\convertax-test\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="InvestmentsPage" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/investments-page.test.tsx" />
+      <test-names>
+        <test-name value="InvestmentsPage" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -95,9 +115,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="Jest.InvestmentsPage" />
+        <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +149,8 @@
       <workItem from="1720577942905" duration="4316000" />
       <workItem from="1720629062505" duration="20000" />
       <workItem from="1720645498394" duration="12003000" />
-      <workItem from="1720710516315" duration="9433000" />
+      <workItem from="1720710516315" duration="10020000" />
+      <workItem from="1720724742795" duration="2482000" />
     </task>
     <servers />
   </component>
