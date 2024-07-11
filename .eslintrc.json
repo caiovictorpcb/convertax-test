@@ -3,7 +3,8 @@
   "root": true,
   "extends": [
     "prettier",
-    "plugin:tailwindcss/recommended"
+    "plugin:tailwindcss/recommended",
+    "plugin:storybook/recommended"
   ],
   "plugins": [
     "tailwindcss"
