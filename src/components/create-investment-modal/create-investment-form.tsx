@@ -14,7 +14,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { useInvestments } from "@/hooks/use-investments";
-import MoneyInput from "@/components/ui/money-input";
+import { MoneyInput } from "@/components/ui/money-input";
 import { DialogFooter } from "@/components/ui/dialog";
 import dayjs from "dayjs";
 

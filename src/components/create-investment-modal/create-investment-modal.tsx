@@ -6,7 +6,6 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
 import { CreateInvestmentForm } from "@/components/create-investment-modal/create-investment-form";
 import { enqueueSnackbar } from "notistack";
@@ -23,20 +22,20 @@ export const CreateInvestmentModal = () => {
   };
   const openModal = () => setIsOpen(true);
   return (
-    <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogTrigger asChild>
-        <AddButton label={"Criar investimento"} onClick={openModal} />
-      </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogTitle>Criar investimento</DialogTitle>
-          <DialogDescription>
-            Preencha os campos abaixo para criar um novo investimento na sua
-            carteira.
-          </DialogDescription>
-        </DialogHeader>
-        <CreateInvestmentForm onClose={onClose} />
-      </DialogContent>
-    </Dialog>
+    <>
+      <AddButton label={"Criar investimento"} onClick={openModal} />
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <DialogContent className="sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle>Criar investimento</DialogTitle>
+            <DialogDescription>
+              Preencha os campos abaixo para criar um novo investimento na sua
+              carteira.
+            </DialogDescription>
+          </DialogHeader>
+          <CreateInvestmentForm onClose={onClose} />
+        </DialogContent>
+      </Dialog>
+    </>
   );
 };

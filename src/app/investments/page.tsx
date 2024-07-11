@@ -2,7 +2,7 @@ import { InvestmentsTable } from "@/components/investments-table/investments-tab
 import { CreateInvestmentModal } from "@/components/create-investment-modal/create-investment-modal";
 import { DeleteAllInvestmentsModal } from "@/components/delete-all-investments-modal/delete-all-investments-modal";
 
-export default async function Home() {
+export default function InvestmentsPage() {
   return (
     <div className={"flex size-full items-center"}>
       <div className={"flex size-full flex-col gap-4"}>
