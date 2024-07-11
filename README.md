@@ -28,7 +28,7 @@ Este projeto é uma aplicação web para gestão de investimentos. Com ele, voc�
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd seu-repositorio
+    cd convertax-test
     ```
 
 3. Instale as dependências:
