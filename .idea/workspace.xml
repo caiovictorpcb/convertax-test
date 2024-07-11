@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0981441-cb6c-4bc1-bf50-ede62fc6a22a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/investments/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/investments/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/investments/template.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/delete-all-investments-modal/delete-all-investments-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/delete-investment-modal/delete-investment-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/income-table/columns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/income-table/income-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/investment-details/investment-details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/withdrawals-table/columns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/withdrawals-table/withdrawals-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investments-breadcrumb/investments-breadcrumb.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investments-table/columns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investments-table/investments-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/providers/providers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/add-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/breadcrumb.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/data-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/delete-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/money-input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/money-text.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-investments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/store/actions/create-investment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/store/actions/create-withdrawal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/store/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/investments.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2izJwpNMwx6zqPLKiu3WBjeAth0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/caiov/Trabalho/bobbi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\caiov\\P\\convertax-test\\node_modules\\eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\caiov\\P\\convertax-test\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\caiov\\P\\convertax-test\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caiov\P\convertax-test\src\app\investments" />
+      <recent name="C:\Users\caiov\P\convertax-test\src\components\investment-container\components" />
+      <recent name="C:\Users\caiov\P\convertax-test\src\lib\store" />
+      <recent name="C:\Users\caiov\P\convertax-test\src\app\investments\[id]" />
+      <recent name="C:\Users\caiov\P\convertax-test\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0981441-cb6c-4bc1-bf50-ede62fc6a22a" name="Changes" comment="" />
+      <created>1720487718440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720487718440</updated>
+      <workItem from="1720487718444" duration="204000" />
+      <workItem from="1720488000362" duration="596000" />
+      <workItem from="1720488710700" duration="3510000" />
+      <workItem from="1720492322176" duration="2135000" />
+      <workItem from="1720573544567" duration="2620000" />
+      <workItem from="1720577942905" duration="4316000" />
+      <workItem from="1720629062505" duration="20000" />
+      <workItem from="1720645498394" duration="12003000" />
+      <workItem from="1720710516315" duration="8472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
