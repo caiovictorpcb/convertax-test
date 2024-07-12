@@ -7,6 +7,7 @@ import { IncomeTable } from "@/components/investment-container/components/income
 import { DeleteInvestmentModal } from "@/components/delete-investment-modal/delete-investment-modal";
 import { InvestmentDetails } from "@/components/investment-container/components/investment-details/investment-details";
 import { InvestmentsBreadcrumb } from "@/components/investments-breadcrumb/investments-breadcrumb";
+import { InvestmentResultsChart } from "@/components/investment-container/components/investment-results-chart/investment-results-chart";
 
 interface Props {
   investmentId: string;
@@ -43,7 +44,10 @@ export const InvestmentContainer = ({ investmentId }: Props) => {
               <InvestmentDetails investment={investment} />
               <IncomeTable income={investment.income} />
             </div>
-            <WithdrawalsTable withdrawals={investment.withdrawals} />
+            <div className={"flex w-full flex-col gap-8"}>
+              <WithdrawalsTable withdrawals={investment.withdrawals} />
+              <InvestmentResultsChart investment={investment} />
+            </div>
           </div>
         </div>
       </div>
