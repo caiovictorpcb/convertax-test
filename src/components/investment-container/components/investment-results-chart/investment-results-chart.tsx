@@ -62,7 +62,9 @@ export const InvestmentResultsChart = ({ investment }: Props) => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className={"text-xl"}>Resultado do investimento</CardTitle>
+        <CardTitle className={"text-xl"}>
+          Comparativo de rendimentos e retiradas
+        </CardTitle>
         <CardDescription className={"text-sm"}>
           Últimos 6 meses de rendimentos e retiradas
         </CardDescription>

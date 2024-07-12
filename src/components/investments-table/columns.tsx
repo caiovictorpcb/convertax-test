@@ -5,12 +5,6 @@ import { MoneyText } from "@/components/ui/money-text";
 
 export const columns: ColumnDef<Investment>[] = [
   {
-    id: "id",
-    accessorKey: "id",
-    header: "Id",
-    cell: ({ row }) => <span>{row.original.id}</span>,
-  },
-  {
     id: "name",
     accessorKey: "name",
     header: "Nome",

@@ -21,9 +21,9 @@ export const InvestmentContainer = ({ investmentId }: Props) => {
 
   if (!investment) return null;
   return (
-    <div className={"flex size-full items-center justify-center"}>
+    <div className={"flex size-full"}>
       <div className={"flex size-full flex-col gap-8"}>
-        <div className={"flex w-full flex-col gap-4"}>
+        <div className={"flex size-full flex-col gap-4"}>
           <div
             className={
               "flex w-full flex-row items-end justify-between gap-4 md:items-center"
@@ -39,12 +39,12 @@ export const InvestmentContainer = ({ investmentId }: Props) => {
               <DeleteInvestmentModal investmentId={investment.id} />
             </div>
           </div>
-          <div className="flex w-full flex-col gap-8 lg:flex-row">
-            <div className={"flex w-full flex-col gap-8"}>
+          <div className="flex size-full flex-col gap-8 lg:flex-row">
+            <div className={"flex size-full flex-col gap-8"}>
               <InvestmentDetails investment={investment} />
               <IncomeTable income={investment.income} />
             </div>
-            <div className={"flex w-full flex-col gap-8"}>
+            <div className={"flex size-full flex-col gap-8"}>
               <WithdrawalsTable withdrawals={investment.withdrawals} />
               <InvestmentResultsChart investment={investment} />
             </div>

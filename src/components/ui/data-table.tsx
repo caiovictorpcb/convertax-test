@@ -48,7 +48,7 @@ export function DataTable<TData, TValue>({
                   <TableHead
                     key={header.id}
                     style={header?.column?.columnDef?.meta}
-                    className={cn("text-black")}
+                    className={cn("text-center text-black")}
                   >
                     {header.isPlaceholder
                       ? null
@@ -75,7 +75,7 @@ export function DataTable<TData, TValue>({
                 onClick={() => onRowClick?.(row)}
               >
                 {row.getVisibleCells().map((cell) => (
-                  <TableCell key={cell.id}>
+                  <TableCell key={cell.id} className={"text-center"}>
                     {flexRender(cell.column.columnDef.cell, cell.getContext())}
                   </TableCell>
                 ))}

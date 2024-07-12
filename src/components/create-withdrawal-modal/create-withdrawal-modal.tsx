@@ -27,7 +27,7 @@ export const CreateWithdrawalModal = ({ investment }: Props) => {
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>
-            <DialogTitle>Criar investimento</DialogTitle>
+            <DialogTitle>Fazer retirada</DialogTitle>
             <DialogDescription>
               Preencha os campos abaixo para retirar um valor do seu
               investimento
