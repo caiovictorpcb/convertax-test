@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0981441-cb6c-4bc1-bf50-ede62fc6a22a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/investments-chart/investments-chart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/investment-container/components/investment-results-chart/investment-results-chart.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/investments/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/investments/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/investments-table/investments-table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investments-table/investments-table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +144,7 @@
       <workItem from="1720645498394" duration="12003000" />
       <workItem from="1720710516315" duration="10020000" />
       <workItem from="1720724742795" duration="5426000" />
-      <workItem from="1720790381441" duration="3672000" />
+      <workItem from="1720790381441" duration="4857000" />
     </task>
     <servers />
   </component>
