@@ -56,7 +56,7 @@ export const InvestmentsChart = ({ className }: Props) => {
       </CardHeader>
       <CardContent className="flex-1 pb-0">
         {!investments?.length ? (
-          <div className="flex h-full items-center justify-center text-sm text-gray-500">
+          <div className="flex h-32 items-center justify-center text-sm text-gray-500 lg:h-full">
             Nenhum investimento encontrado
           </div>
         ) : (
