@@ -39,8 +39,16 @@ export const InvestmentsChart = ({ className }: Props) => {
     return chartData.reduce((acc, curr) => acc + curr.value, 0);
   }, [chartData]);
 
+  const hasInvestments = useMemo(() => !!investments?.length, [investments]);
+
   return (
-    <Card className={cn("flex h-fit flex-col", className as string)}>
+    <Card
+      className={cn(
+        "flex h-full flex-col",
+        hasInvestments && "h-fit",
+        className as string,
+      )}
+    >
       <CardHeader>
         <CardTitle className={"text-xl"}>
           Distribuição de investimentos
@@ -48,10 +56,8 @@ export const InvestmentsChart = ({ className }: Props) => {
       </CardHeader>
       <CardContent className="flex-1 pb-0">
         {!investments?.length ? (
-          <div className="flex h-full flex-col items-center justify-center">
-            <p className="text-sm text-gray-500">
-              Nenhum investimento encontrado
-            </p>
+          <div className="flex h-full items-center justify-center text-sm text-gray-500">
+            Nenhum investimento encontrado
           </div>
         ) : (
           <ChartContainer
