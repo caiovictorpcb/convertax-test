@@ -1,6 +1,7 @@
 import { InvestmentsTable } from "@/components/investments-table/investments-table";
 import { CreateInvestmentModal } from "@/components/create-investment-modal/create-investment-modal";
 import { DeleteAllInvestmentsModal } from "@/components/delete-all-investments-modal/delete-all-investments-modal";
+import { InvestmentsChart } from "@/components/investments-chart/investments-chart";
 
 export default function InvestmentsPage() {
   return (
@@ -13,8 +14,10 @@ export default function InvestmentsPage() {
             <DeleteAllInvestmentsModal />
           </div>
         </div>
-
-        <InvestmentsTable />
+        <div className={"flex flex-col gap-8 lg:flex-row"}>
+          <InvestmentsTable />
+          <InvestmentsChart className={"w-full lg:w-2/5"} />
+        </div>
       </div>
     </div>
   );
