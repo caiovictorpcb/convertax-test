@@ -23,7 +23,11 @@ export const CreateInvestmentModal = () => {
   const openModal = () => setIsOpen(true);
   return (
     <>
-      <AddButton label={"Criar investimento"} onClick={openModal} />
+      <AddButton
+        label={"Criar investimento"}
+        onClick={openModal}
+        variant={"default"}
+      />
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>

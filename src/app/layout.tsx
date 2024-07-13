@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={"size-full"}>
-      <body className={cn(inter.className, "size-full")}>
+      <body className={cn(inter.className, "size-full bg-gray-50")}>
         <Providers>{children}</Providers>
       </body>
     </html>

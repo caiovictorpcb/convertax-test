@@ -10,7 +10,7 @@ interface Props {
 
 export const WithdrawalsTable = ({ withdrawals }: Props) => {
   return (
-    <Card className="h-fit w-full max-w-none">
+    <Card className="h-fit w-full max-w-none shadow">
       <CardHeader>
         <CardTitle className={"text-xl"}>Retiradas</CardTitle>
       </CardHeader>

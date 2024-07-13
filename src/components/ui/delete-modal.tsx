@@ -14,10 +14,16 @@ import { Trash } from "lucide-react";
 
 interface Props {
   onDelete: () => void;
-  label: string;
+  label: string | React.ReactNode;
   description: string;
+  tooltip?: boolean;
 }
-export const DeleteModal = ({ onDelete, label, description }: Props) => {
+export const DeleteModal = ({
+  onDelete,
+  label,
+  description,
+  tooltip,
+}: Props) => {
   const [isOpen, setIsOpen] = useState(false);
   const onClose = () => {
     setIsOpen(false);

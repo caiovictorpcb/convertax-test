@@ -11,7 +11,9 @@ export const DeleteAllInvestmentsModal = () => {
   return (
     <DeleteModal
       onDelete={deleteAllInvestments}
-      label={"Deletar todos os investimentos"}
+      label={
+        <span className={"flex md:hidden"}>Deletar todos os investimentos</span>
+      }
       description={
         "Tem certeza que deseja deletar todos os investimentos? Esta ação é irreversível."
       }

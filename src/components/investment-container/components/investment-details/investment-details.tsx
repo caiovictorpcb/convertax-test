@@ -18,7 +18,7 @@ export const InvestmentDetails = ({ investment }: Props) => {
     [investment.income],
   );
   return (
-    <Card className="h-fit w-full max-w-none">
+    <Card className="h-fit w-full max-w-none shadow">
       <CardHeader>
         <CardTitle className={"text-xl"}>Detalhes do investimento</CardTitle>
       </CardHeader>

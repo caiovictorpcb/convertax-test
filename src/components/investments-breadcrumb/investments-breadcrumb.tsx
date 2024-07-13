@@ -18,8 +18,8 @@ export const InvestmentsBreadcrumb = ({ investment }: Props) => {
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <Link href="/investments" className={"text-xl font-semibold"}>
-            Meus Investimentos
+          <Link href="/investments" className={"text-2xl font-semibold"}>
+            Dashboard
           </Link>
         </BreadcrumbItem>
         <BreadcrumbSeparator />

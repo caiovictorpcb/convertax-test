@@ -9,7 +9,7 @@ interface Props {
 }
 export const IncomeTable = ({ income }: Props) => {
   return (
-    <Card className="w-full max-w-none">
+    <Card className="w-full max-w-none shadow">
       <CardHeader>
         <CardTitle className={"text-xl"}>Rendimentos</CardTitle>
       </CardHeader>
