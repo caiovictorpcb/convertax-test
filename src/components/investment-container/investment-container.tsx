@@ -26,13 +26,13 @@ export const InvestmentContainer = ({ investmentId }: Props) => {
         <div className={"flex size-full flex-col gap-4"}>
           <div
             className={
-              "flex w-full flex-row items-end justify-between gap-4 md:items-center"
+              "flex w-full flex-row items-center justify-between gap-4"
             }
           >
             <InvestmentsBreadcrumb investment={investment} />
             <div
               className={
-                "flex flex-col items-start gap-4 lg:flex-row lg:items-center"
+                "flex flex-col items-start gap-4 md:flex-row lg:items-center"
               }
             >
               <CreateWithdrawalModal investment={investment} />

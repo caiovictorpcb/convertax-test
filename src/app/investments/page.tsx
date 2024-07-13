@@ -7,7 +7,7 @@ export default function InvestmentsPage() {
   return (
     <div className={"flex size-full items-center"}>
       <div className={"flex size-full flex-col gap-6"}>
-        <div className="flex items-end justify-between pt-8 lg:items-center">
+        <div className="flex flex-col items-end justify-between gap-12 pt-8 md:flex-row lg:items-center">
           <div className={"flex flex-col gap-2"}>
             <h1 className="text-2xl font-bold">
               Olá, seja bem vindo(a) ao Dashboard de Investimentos!
@@ -20,7 +20,7 @@ export default function InvestmentsPage() {
               um deles.
             </span>
           </div>
-          <div className="flex flex-col gap-4 lg:flex-row lg:items-center">
+          <div className="flex flex-col gap-4 sm:flex-row lg:items-center">
             <CreateInvestmentModal />
             <DeleteAllInvestmentsModal />
           </div>

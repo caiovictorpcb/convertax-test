@@ -60,7 +60,7 @@ export const InvestmentResultsChart = ({ investment }: Props) => {
   }, [investment.income, investment.withdrawals]);
 
   return (
-    <Card>
+    <Card className={"shadow"}>
       <CardHeader>
         <CardTitle className={"text-xl"}>
           Comparativo de rendimentos e retiradas

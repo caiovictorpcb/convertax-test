@@ -16,7 +16,7 @@ export const DeleteInvestmentModal = ({ investmentId }: Props) => {
   return (
     <DeleteModal
       onDelete={onDelete}
-      label={""}
+      label={"Apagar investimento"}
       description={
         "Tem certeza que deseja deletar este investimento? Esta ação é irreversível."
       }

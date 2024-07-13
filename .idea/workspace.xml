@@ -8,22 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/investments/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/investments/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/investments/template.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/investments/template.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-investment-modal/create-investment-modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/create-withdrawal-modal/create-withdrawal-modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/delete-all-investments-modal/delete-all-investments-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/delete-all-investments-modal/delete-all-investments-modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/delete-investment-modal/delete-investment-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/delete-investment-modal/delete-investment-modal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/investment-container/components/income-table/income-table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/components/income-table/income-table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/investment-container/components/investment-details/investment-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/components/investment-details/investment-details.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/investment-container/components/investment-results-chart/investment-results-chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/components/investment-results-chart/investment-results-chart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/investment-container/components/withdrawals-table/withdrawals-table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/components/withdrawals-table/withdrawals-table.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investment-container/investment-container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/investments-breadcrumb/investments-breadcrumb.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investments-breadcrumb/investments-breadcrumb.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/investments-table/columns.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investments-table/columns.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/investments-table/investments-table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/investments-table/investments-table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/add-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/add-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/data-table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/data-table.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ui/delete-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/delete-modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +153,9 @@
       <workItem from="1720710516315" duration="10020000" />
       <workItem from="1720724742795" duration="5426000" />
       <workItem from="1720790381441" duration="6774000" />
-      <workItem from="1720813557275" duration="3964000" />
+      <workItem from="1720813557275" duration="5562000" />
+      <workItem from="1720840860566" duration="516000" />
+      <workItem from="1720844530003" duration="1356000" />
     </task>
     <servers />
   </component>
